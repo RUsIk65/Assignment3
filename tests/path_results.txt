@@ -1,0 +1,6 @@
+{"source":0,"target":3,"edge_ids":[0,2,3],"path_cost":0,"path":[0,1,2,3]}
+{"source":0,"target":0,"edge_ids":[],"path_cost":0,"path":[0]}
+{"source":0,"target":4,"edge_ids":[],"path_cost":0,"path":[]}
+{"source":0,"target":2,"edge_ids":[3],"path_cost":1,"path":[0,2]}
+{"source":0,"target":2,"edge_ids":[0,2],"path_cost":1,"path":[0,1,2]}
+PASS route helper, including 100000-vertex path

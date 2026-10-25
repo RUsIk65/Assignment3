@@ -1,0 +1,7 @@
+{"os":"Windows 11","processors":16,"arch":"amd64","max_heap_bytes":402653184,"java":"21.0.11+9-LTS-211","vm":"Java HotSpot(TM) 64-Bit Server VM"}
+{"n":1000,"method":"kruskal","median_ms":1.1234,"seed":20262025,"milliseconds":[1.1221,1.1534,0.9924,1.1234,1.3716],"m":2500}
+{"n":1000,"method":"prim","median_ms":2.0891,"seed":20262025,"milliseconds":[1.9387,2.0891,2.2586,1.8248,2.2021],"m":2500}
+{"n":10000,"method":"kruskal","median_ms":25.2895,"seed":20271025,"milliseconds":[26.3373,25.6609,25.2895,23.5343,17.3278],"m":25000}
+{"n":10000,"method":"prim","median_ms":19.6426,"seed":20271025,"milliseconds":[20.6225,20.8915,19.6426,13.5677,12.5367],"m":25000}
+{"n":100000,"method":"kruskal","median_ms":155.6155,"seed":20361025,"milliseconds":[189.2045,142.9211,139.3366,174.9945,155.6155],"m":250000}
+{"n":100000,"method":"prim","median_ms":435.4529,"seed":20361025,"milliseconds":[475.4736,435.4529,478.6934,395.7317,424.2883],"m":250000}

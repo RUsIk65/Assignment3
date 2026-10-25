@@ -1,0 +1,9 @@
+PASS full-limit 1: dsu, n=100000, rows=250000
+PASS full-limit 2: kruskal, n=100000, rows=250000
+PASS full-limit 3: prim, n=100000, rows=250000
+PASS full-limit 4: scc, n=100000, rows=250000
+PASS full-limit 5: scc, n=100000, rows=250000
+PASS full-limit 6: topo, n=100000, rows=250000
+PASS full-limit 7: topo, n=100000, rows=250000
+PASS full-limit 8: dag, n=100000, rows=250000
+PASS full-limit 9: dag, n=100000, rows=250000

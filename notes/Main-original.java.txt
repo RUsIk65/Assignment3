@@ -1,0 +1,70 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static class DSU{
+        private final int[] parent;
+        private final int[] size;
+        private int components;
+        private int largest;
+
+        public DSU(int n) {
+            parent = new int[n];
+            size = new int[n];
+            components = n;
+            if (n == 0) {
+                largest = 0;
+            } else {
+                largest = 1;
+            }
+
+            for (int i = 0; i < n; i++) {
+                parent[i] = i;
+                size[i] = 1;
+            }
+        }
+
+        public void find(String n){
+            System.out.println("Find");
+        }
+
+        public void union(String u, String v){
+            System.out.println("u");
+        }
+    }
+
+    public static class KRUSKAL{
+        public void dd(){
+            System.out.println("sa");
+        }
+    }
+
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        DSU dsu = new DSU(5);
+        while(true){
+            System.out.print("Task: ");
+            String task = sc.nextLine();
+            switch (task){
+                case "dsu":
+                    dsu.find("2");
+                case "kruskal":
+                    break;
+                case "prim":
+                    break;
+                case "scc":
+                    break;
+                case "topo":
+                    break;
+                case "dag":
+                    break;
+                default:
+                    System.out.println("Error");
+            }
+
+            System.out.print("Enter '1' to finished: ");
+            int exit = sc.nextInt();
+            if (exit == 1) break;
+        }
+    }
+}
